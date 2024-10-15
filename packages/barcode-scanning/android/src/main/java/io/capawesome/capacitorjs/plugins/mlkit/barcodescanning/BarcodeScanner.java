@@ -406,7 +406,7 @@ public class BarcodeScanner implements ImageAnalysis.Analyzer {
      * Must run on UI thread.
      */
     private void showWebViewBackground() {
-        plugin.getBridge().getWebView().setBackgroundColor(Color.WHITE);
+        //plugin.getBridge().getWebView().setBackgroundColor(Color.WHITE);
     }
 
     private void handleScannedBarcode(Barcode barcode, Point imageSize) {
